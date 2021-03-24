@@ -88,6 +88,7 @@ $(document).ready(function() {
   $(".saveBtn").on("click", function(event) {
     event.preventDefault();
     console.log('test');
+    
     //Get the data index number from the button.
     let dataIndex = $(this).attr("data-index");
     let textInput = $(`#input${dataIndex}`).val();
